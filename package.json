@@ -1,0 +1,20 @@
+{
+  "name": "neon-groover",
+  "version": "1.0.0",
+  "description": "Neon Groover - Action RPG!",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "phaser": "^3.90.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "vite": "^5.4.0"
+  }
+}
